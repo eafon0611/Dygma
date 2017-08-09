@@ -52,51 +52,6 @@
       "tooltip": "{{ % of missing data, domestic financing (%) }}%", 
       "type": "number"
     }, 
-    "_of_missing_data_outcome_indicators": {
-      "choropleth": [
-        {
-          "color": "#42c6da", 
-          "label": "equal to 0", 
-          "range": [
-            0, 
-            0
-          ]
-        }, 
-        {
-          "color": "#3cb9ec", 
-          "label": "between 0 and 50", 
-          "range": [
-            0, 
-            50
-          ]
-        }, 
-        {
-          "color": "#42a5f5", 
-          "label": "between 50 and 100", 
-          "range": [
-            50, 
-            100
-          ]
-        }, 
-        {
-          "color": "#4a80df", 
-          "label": "equal to 100", 
-          "range": [
-            100, 
-            100
-          ]
-        }
-      ], 
-      "description": "Percentage of missing data among the following indicators: Gross Enrollment Rate in Preprimary, Primary Gross Intake Rate, Primary Gross Enrollment Ratio, Primary Completion Rate and Lower Secondary Completion Rate.", 
-      "display": "{{ % of missing data outcome indicators (%) }}%", 
-      "max": 100, 
-      "min": 0, 
-      "name": "% of missing data outcome indicators (%)", 
-      "precision": 2, 
-      "source_file": "% of missing data outcome indicators (%).csv", 
-      "tooltip": "{{ % of missing data outcome indicators (%) }}%", 
-      "type": "number"
-    }, 
     "_of_missing_data_service_delivery": {
       "choropleth": [
         {
